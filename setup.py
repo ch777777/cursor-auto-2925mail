@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="cursor-register-tool",
-    version="1.11.02",
+    version="2.7.2",
     description="Cursor Registration Tool",
     author="Pin Studios",
     author_email="yeongpin@github.com",

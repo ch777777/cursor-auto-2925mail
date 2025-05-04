@@ -8,18 +8,18 @@ This project is a specialized automation tool for Cursor PRO, providing efficien
 
 ## 📦 Version Information
 
-- Current Version: v1.2.0
+- Current Version: v2.7.2
 - Update Date: 2024-05-04
 - Version History: [CHANGELOG.md](CHANGELOG.md)
 
 ### Version Notes
-- v1.2.0 - 2925.com Email Support Version
+- v2.7.2 - 2925.com Email Support Version
   - 2925.com email auto-registration support
   - Complete account management functionality
   - Automated permission update system
   - Multi-language interface support
 
-## ✨ Core Features
+## �?Core Features
 
 ### 🔑 Account Management
 - Automatic registration with 2925.com email
@@ -89,14 +89,14 @@ After running the program, you will see the following main menu options:
 ```
 🎯 Cursor PRO@2925mail Automation Tool Main Menu
 
-1. ✨ Create New Account (2925.com email)
+1. �?Create New Account (2925.com email)
 2. 🔄 Reset Existing Account
 3. 🔑 Update Account Permissions
 4. 📊 View Account Status
 5. ⚙️ System Settings
 6. 🌍 Switch Language
 7. ℹ️ View Version Info
-8. ❌ Exit Program
+8. �?Exit Program
 
 Please enter option number (1-8): 
 ```
@@ -290,7 +290,7 @@ THREAD_COUNT=5           # Thread count
 LOG_LEVEL=INFO          # Log level
 ```
 
-## 🛠️ Development
+## 🛠�?Development
 
 ### Tech Stack
 - Python
