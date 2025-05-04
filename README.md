@@ -1,74 +1,117 @@
-# Cursor Pro 自动化工具使用说明
+# Cursor Pro 自动化工具
 
-English doc: [English](README.EN.md)
+[English](README.EN.md) | 简体中文
 
-## 📋 项目说明
+## 📌 项目简介
 
-本项目是基于 [cursor-auto-free](https://github.com/chengazhen/cursor-auto-free) 开发的增强版本，主要增加了对2925.com邮箱的支持和自动化功能。
+本项目是一个强大的 Cursor Pro 自动化工具，专注于提供高效的账号管理和权限自动更新功能。基于 [cursor-auto-free](https://github.com/chengazhen/cursor-auto-free) 开发，增加了对2925.com邮箱的全面支持。
 
-### 项目分支信息
-- **主分支**
-  - 原作者: chengazhen
-  - 项目地址: [cursor-auto-free](https://github.com/chengazhen/cursor-auto-free)
-- **2925邮箱分支**
-  - 分支作者: xiangye72
-  - 项目地址: [cursor-auto-free-2925mail](https://github.com/ch777777/cursor-auto-free-2925mail)
+## ✨ 核心特性
 
-## ✨ 核心功能
+### 🔑 账号管理
+- 支持2925.com邮箱自动注册
+- 智能验证码识别和处理
+- 批量账号管理系统
+- 自动化账号信息提交
+
+### 🔄 权限管理
+- 自动循环更新使用权限
+- 智能化权限状态监控
+- 多账号轮换机制
+- 失效预警和自动处理
+
+### 🌐 系统兼容
+- Windows 系统全面支持
+- macOS 完整适配
+- Linux 系统兼容
+
+### 🌍 多语言支持
+- 简体中文
+- English
+- 繁體中文
+
+## 🚀 快速开始
+
+### 环境要求
+- Python 3.7+
+- 稳定的网络连接
+- 系统权限要求
+
+### 安装步骤
+1. 克隆仓库
+```bash
+git clone https://github.com/ch777777/cursor-auto-2925mail.git
+```
+
+2. 安装依赖
+```bash
+pip install -r requirements.txt
+```
+
+3. 配置设置
+```bash
+cp .env.example .env
+# 编辑 .env 文件，填入必要配置
+```
+
+4. 运行程序
+```bash
+python main.py
+```
+
+## 📚 使用指南
 
 ### 基础功能
-- 支持Windows、macOS和Linux系统
-- 多语言支持（英文、简体中文、繁體中文）
-- Cursor Pro账号注册和管理
+- 账号注册
+- 验证码处理
+- 权限更新
+- 状态监控
 
-### 增强功能
-1. **2925.com邮箱支持**
-   - 完整的2925.com邮箱注册流程
-   - 邮箱账号自动化管理系统
-   - 邮箱验证码自动获取
+### 高级功能
+- 批量操作
+- 自动化管理
+- 异常处理
+- 数据备份
 
-2. **自动化功能**
-   - 自动提交2925邮箱账号
-   - 自动循环更新Cursor使用权限
-   - 批量账号管理
+## 🛠️ 开发相关
 
-## 🚀 功能改进对比
+### 技术栈
+- Python
+- Selenium
+- requests
+- SQLite
 
-### 相比原项目的改进
-1. **邮箱系统升级**
-   - 新增2925.com邮箱支持
-   - 优化邮箱注册流程
-   - 提升注册成功率
+### 项目结构
+```
+cursor-auto-2925mail/
+├── main.py              # 主程序入口
+├── config.py            # 配置文件
+├── utils/               # 工具函数
+├── modules/             # 功能模块
+└── docs/               # 文档
+```
 
-2. **自动化增强**
-   - 新增账号自动提交功能
-   - 新增权限自动更新功能
-   - 优化账号管理流程
+## ⚠️ 免责声明
 
-## 📖 使用说明
+本项目仅供学习和研究使用，使用本工具所产生的任何后果由使用者自行承担。请遵守相关法律法规，不要用于非法用途。
 
-### 系统要求
-- 支持的操作系统：Windows、macOS、Linux
-- 需要Python环境
-- 需要网络连接
+## 📝 许可证
 
-### 快速开始
-1. 克隆项目到本地
-2. 安装依赖
-3. 配置邮箱信息
-4. 运行程序
+本项目采用 [CC BY-NC-ND 4.0](LICENSE.md) 许可证。
 
-详细使用说明请参考 [使用文档](docs/usage.md)
+## 🙏 致谢
 
-## ⚠️ 声明
+感谢原项目作者 [chengazhen](https://github.com/chengazhen) 的开源贡献。
 
-本项目基于原作者 chengazhen 的 cursor-auto-free 项目开发，仅供学习和研究使用。使用本工具所产生的任何后果由使用者自行承担。
+## 🤝 贡献指南
 
-## ⭐ Star History
+欢迎提交 Issue 和 Pull Request 来帮助改进项目。在提交之前，请确保：
+- 代码符合项目规范
+- 添加必要的测试
+- 更新相关文档
 
-[![Star History Chart](https://api.star-history.com/svg?repos=ch777777/cursor-auto-free-2925mail&type=Date)](https://star-history.com/#ch777777/cursor-auto-free-2925mail&Date)
+## 📊 项目状态
 
-## 📝 License
-
-本项目采用 [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) 授权。
-详细信息请参考 [LICENSE](LICENSE.md) 文件。
+![GitHub stars](https://img.shields.io/github/stars/ch777777/cursor-auto-2925mail)
+![GitHub forks](https://img.shields.io/github/forks/ch777777/cursor-auto-2925mail)
+![GitHub issues](https://img.shields.io/github/issues/ch777777/cursor-auto-2925mail)

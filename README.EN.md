@@ -1,74 +1,117 @@
-# Cursor Pro Automation Tool Guide
+# Cursor Pro Automation Tool
 
-中文文档: [中文](README.md)
+English | [简体中文](README.md)
 
-## 📋 Project Description
+## 📌 Introduction
 
-This project is an enhanced version based on [cursor-auto-free](https://github.com/chengazhen/cursor-auto-free), primarily adding support for 2925.com email and automation features.
-
-### Branch Information
-- **Main Branch**
-  - Original Author: chengazhen
-  - Project URL: [cursor-auto-free](https://github.com/chengazhen/cursor-auto-free)
-- **2925 Email Branch**
-  - Branch Author: xiangye72
-  - Project URL: [cursor-auto-free-2925mail](https://github.com/ch777777/cursor-auto-free-2925mail)
+This is a powerful Cursor Pro automation tool focused on providing efficient account management and automatic permission updates. Based on [cursor-auto-free](https://github.com/chengazhen/cursor-auto-free), it adds comprehensive support for 2925.com email.
 
 ## ✨ Core Features
 
-### Basic Features
-- Support for Windows, macOS, and Linux systems
-- Multi-language support (English, Simplified Chinese, Traditional Chinese)
-- Cursor Pro account registration and management
+### 🔑 Account Management
+- Automatic registration with 2925.com email
+- Smart verification code recognition
+- Batch account management system
+- Automated account information submission
 
-### Enhanced Features
-1. **2925.com Email Support**
-   - Complete 2925.com email registration process
-   - Automated email account management system
-   - Automatic verification code retrieval
+### 🔄 Permission Management
+- Automatic permission renewal
+- Smart permission status monitoring
+- Multi-account rotation mechanism
+- Expiration alerts and auto-handling
 
-2. **Automation Features**
-   - Automatic 2925 email account submission
-   - Automatic Cursor usage permission renewal
-   - Batch account management
+### 🌐 System Compatibility
+- Full Windows support
+- Complete macOS adaptation
+- Linux compatibility
 
-## 🚀 Feature Improvements
+### 🌍 Multi-language Support
+- English
+- Simplified Chinese
+- Traditional Chinese
 
-### Compared to Original Project
-1. **Email System Upgrade**
-   - Added 2925.com email support
-   - Optimized email registration process
-   - Improved registration success rate
+## 🚀 Quick Start
 
-2. **Automation Enhancements**
-   - Added automatic account submission
-   - Added automatic permission renewal
-   - Optimized account management process
+### Requirements
+- Python 3.7+
+- Stable network connection
+- System permissions
 
-## 📖 Usage Guide
+### Installation Steps
+1. Clone repository
+```bash
+git clone https://github.com/ch777777/cursor-auto-2925mail.git
+```
 
-### System Requirements
-- Supported OS: Windows, macOS, Linux
-- Python environment required
-- Internet connection required
-
-### Quick Start
-1. Clone the project locally
 2. Install dependencies
-3. Configure email settings
-4. Run the program
+```bash
+pip install -r requirements.txt
+```
 
-For detailed instructions, please refer to the [Usage Documentation](docs/usage.md)
+3. Configure settings
+```bash
+cp .env.example .env
+# Edit .env file with necessary configurations
+```
+
+4. Run program
+```bash
+python main.py
+```
+
+## 📚 Usage Guide
+
+### Basic Functions
+- Account registration
+- Verification code handling
+- Permission updates
+- Status monitoring
+
+### Advanced Features
+- Batch operations
+- Automated management
+- Exception handling
+- Data backup
+
+## 🛠️ Development
+
+### Tech Stack
+- Python
+- Selenium
+- requests
+- SQLite
+
+### Project Structure
+```
+cursor-auto-2925mail/
+├── main.py              # Main program entry
+├── config.py            # Configuration file
+├── utils/               # Utility functions
+├── modules/             # Function modules
+└── docs/               # Documentation
+```
 
 ## ⚠️ Disclaimer
 
-This project is developed based on chengazhen's cursor-auto-free project and is for learning and research purposes only. Users bear all consequences of using this tool.
-
-## ⭐ Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=ch777777/cursor-auto-free-2925mail&type=Date)](https://star-history.com/#ch777777/cursor-auto-free-2925mail&Date)
+This project is for learning and research purposes only. Users bear all consequences of using this tool. Please comply with relevant laws and regulations and do not use for illegal purposes.
 
 ## 📝 License
 
-This project is licensed under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/).
-For more details, please refer to the [LICENSE](LICENSE.md) file. 
+This project is licensed under [CC BY-NC-ND 4.0](LICENSE.md).
+
+## 🙏 Acknowledgments
+
+Thanks to the original project author [chengazhen](https://github.com/chengazhen) for the open source contribution.
+
+## 🤝 Contributing
+
+Welcome to submit Issues and Pull Requests to help improve the project. Before submitting, please ensure:
+- Code complies with project standards
+- Add necessary tests
+- Update relevant documentation
+
+## 📊 Project Status
+
+![GitHub stars](https://img.shields.io/github/stars/ch777777/cursor-auto-2925mail)
+![GitHub forks](https://img.shields.io/github/forks/ch777777/cursor-auto-2925mail)
+![GitHub issues](https://img.shields.io/github/issues/ch777777/cursor-auto-2925mail) 
