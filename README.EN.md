@@ -1,38 +1,68 @@
-# Cursor Pro Automation Tool Documentation
+# Cursor Pro Automation Tool Guide
 
-## Project Description
+中文文档: [中文](README.md)
 
-This project is an enhanced version based on [cursor-auto-free](https://github.com/chengazhen/cursor-auto-free), mainly adding support for 2925.com email and automation features.
+## 📋 Project Description
 
-### Main Branch
-- Original Author: chengazhen
-- Project URL: [cursor-auto-free](https://github.com/chengazhen/cursor-auto-free)
+This project is an enhanced version based on [cursor-auto-free](https://github.com/chengazhen/cursor-auto-free), primarily adding support for 2925.com email and automation features.
 
-### 2925 Email Branch
-- Branch Author: xiangye72
-- Project URL: [cursor-auto-free-2925mail](https://github.com/ch777777/cursor-auto-free-2925mail)
+### Branch Information
+- **Main Branch**
+  - Original Author: chengazhen
+  - Project URL: [cursor-auto-free](https://github.com/chengazhen/cursor-auto-free)
+- **2925 Email Branch**
+  - Branch Author: xiangye72
+  - Project URL: [cursor-auto-free-2925mail](https://github.com/ch777777/cursor-auto-free-2925mail)
 
-## Feature Comparison
+## ✨ Core Features
 
-Compared to the original project, this branch has made the following improvements and enhancements:
+### Basic Features
+- Support for Windows, macOS, and Linux systems
+- Multi-language support (English, Simplified Chinese, Traditional Chinese)
+- Cursor Pro account registration and management
 
-### Modified Features
-- Item 2: Improved email registration functionality to support registration using 2925.com email
+### Enhanced Features
+1. **2925.com Email Support**
+   - Complete 2925.com email registration process
+   - Automated email account management system
+   - Automatic verification code retrieval
 
-### New Features
-- Item 18: Support for automatic submission of 2925 email accounts, implementing automated account information management
-- Item 19: Support for automatic use of 2925 email to cyclically update Cursor usage permissions, improving efficiency
+2. **Automation Features**
+   - Automatic 2925 email account submission
+   - Automatic Cursor usage permission renewal
+   - Batch account management
 
-## Main Features
+## 🚀 Feature Improvements
 
-1. Support for Windows, macOS, and Linux systems
-2. Support for 2925.com email registration and automated management
-3. Support for automatic submission and permission updates
-4. Multi-language support (English, Simplified Chinese, Traditional Chinese)
+### Compared to Original Project
+1. **Email System Upgrade**
+   - Added 2925.com email support
+   - Optimized email registration process
+   - Improved registration success rate
 
-## Disclaimer
+2. **Automation Enhancements**
+   - Added automatic account submission
+   - Added automatic permission renewal
+   - Optimized account management process
 
-This project is developed based on the cursor-auto-free project by the original author chengazhen and is for learning and research purposes only. Any consequences arising from the use of this tool are borne by the user.
+## 📖 Usage Guide
+
+### System Requirements
+- Supported OS: Windows, macOS, Linux
+- Python environment required
+- Internet connection required
+
+### Quick Start
+1. Clone the project locally
+2. Install dependencies
+3. Configure email settings
+4. Run the program
+
+For detailed instructions, please refer to the [Usage Documentation](docs/usage.md)
+
+## ⚠️ Disclaimer
+
+This project is developed based on chengazhen's cursor-auto-free project and is for learning and research purposes only. Users bear all consequences of using this tool.
 
 ## ⭐ Star History
 
@@ -41,4 +71,4 @@ This project is developed based on the cursor-auto-free project by the original 
 ## 📝 License
 
 This project is licensed under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/).
-Please refer to the [LICENSE](LICENSE.md) file for details. 
+For more details, please refer to the [LICENSE](LICENSE.md) file. 
