@@ -93,7 +93,7 @@ def setup_config(translator=None):
                 'max_timeout': '160'
             },
             'Utils': {
-                'enabled_update_check': 'True',
+                'enabled_update_check': 'False',
                 'enabled_force_update': 'False',
                 'enabled_account_info': 'True'
             },

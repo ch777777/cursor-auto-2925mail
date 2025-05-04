@@ -371,15 +371,14 @@ def print_menu():
         8: f"{Fore.GREEN}8{Style.RESET_ALL}. {EMOJI['RESET']} {translator.get('menu.totally_reset')}",
         9: f"{Fore.GREEN}9{Style.RESET_ALL}. {EMOJI['CONTRIBUTE']} {translator.get('menu.contribute')}",
         10: f"{Fore.GREEN}10{Style.RESET_ALL}. {EMOJI['SETTINGS']}  {translator.get('menu.config')}",
-        11: f"{Fore.GREEN}11{Style.RESET_ALL}. {EMOJI['UPDATE']}  {translator.get('menu.bypass_version_check')}",
-        12: f"{Fore.GREEN}12{Style.RESET_ALL}. {EMOJI['UPDATE']}  {translator.get('menu.check_user_authorized')}",
-        13: f"{Fore.GREEN}13{Style.RESET_ALL}. {EMOJI['UPDATE']}  {translator.get('menu.bypass_token_limit')}",
-        14: f"{Fore.GREEN}14{Style.RESET_ALL}. {EMOJI['BACKUP']}  {translator.get('menu.restore_machine_id')}",
-        15: f"{Fore.GREEN}15{Style.RESET_ALL}. {EMOJI['ERROR']}  {translator.get('menu.delete_google_account')}",
-        16: f"{Fore.GREEN}16{Style.RESET_ALL}. {EMOJI['SETTINGS']}  {translator.get('menu.select_chrome_profile')}",
-        17: f"{Fore.GREEN}17{Style.RESET_ALL}. {EMOJI['UPDATE']}  {translator.get('menu.manual_custom_auth')}",
-        18: f"{Fore.GREEN}18{Style.RESET_ALL}. {EMOJI['MAIL']}  {translator.get('menu.register_2925')}",
-        19: f"{Fore.GREEN}19{Style.RESET_ALL}. {EMOJI['MAIL']}  {translator.get('menu.custom_2925')}"
+        11: f"{Fore.GREEN}11{Style.RESET_ALL}. {EMOJI['UPDATE']}  {translator.get('menu.check_user_authorized')}",
+        12: f"{Fore.GREEN}12{Style.RESET_ALL}. {EMOJI['UPDATE']}  {translator.get('menu.bypass_token_limit')}",
+        13: f"{Fore.GREEN}13{Style.RESET_ALL}. {EMOJI['BACKUP']}  {translator.get('menu.restore_machine_id')}",
+        14: f"{Fore.GREEN}14{Style.RESET_ALL}. {EMOJI['ERROR']}  {translator.get('menu.delete_google_account')}",
+        15: f"{Fore.GREEN}15{Style.RESET_ALL}. {EMOJI['SETTINGS']}  {translator.get('menu.select_chrome_profile')}",
+        16: f"{Fore.GREEN}16{Style.RESET_ALL}. {EMOJI['UPDATE']}  {translator.get('menu.manual_custom_auth')}",
+        17: f"{Fore.GREEN}17{Style.RESET_ALL}. {EMOJI['MAIL']}  {translator.get('menu.register_2925')}",
+        18: f"{Fore.GREEN}18{Style.RESET_ALL}. {EMOJI['MAIL']}  {translator.get('menu.custom_2925')}"
     }
     
     # Automatically calculate the number of menu items in the left and right columns
@@ -706,12 +705,13 @@ def main():
     force_update_config(translator)
 
     if config.getboolean('Utils', 'enabled_update_check'):
-        check_latest_version()  # Add version check before showing menu
+        # check_latest_version()  # 版本检测功能已禁用，移除版本检测与更新版本推送
+        pass
     print_menu()
     
     while True:
         try:
-            choice_num = 19
+            choice_num = 18
             choice = input(f"\n{EMOJI['ARROW']} {Fore.CYAN}{translator.get('menu.input_choice', choices=f'0-{choice_num}')}: {Style.RESET_ALL}")
 
             match choice:
@@ -761,39 +761,35 @@ def main():
                     print_config(get_config(), translator)
                     print_menu()
                 case "11":
-                    import bypass_version
-                    bypass_version.main(translator)
-                    print_menu()
-                case "12":
                     import check_user_authorized
                     check_user_authorized.main(translator)
                     print_menu()
-                case "13":
+                case "12":
                     import bypass_token_limit
                     bypass_token_limit.run(translator)
                     print_menu()
-                case "14":
+                case "13":
                     import restore_machine_id
                     restore_machine_id.run(translator)
                     print_menu()
-                case "15":
+                case "14":
                     import delete_cursor_google
                     delete_cursor_google.main(translator)
                     print_menu()
-                case "16":
+                case "15":
                     from oauth_auth import OAuthHandler
                     oauth = OAuthHandler(translator)
                     oauth._select_profile()
                     print_menu()
-                case "17":
+                case "16":
                     import manual_custom_auth
                     manual_custom_auth.main(translator)
                     print_menu()
-                case "18":
+                case "17":
                     import cursor_register_manual
                     cursor_register_manual.setup_email(translator)
                     print_menu()
-                case "19":
+                case "18":
                     import cursor_register_manual
                     cursor_register_manual.custom_2925_email(translator)
                     print_menu()
