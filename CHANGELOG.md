@@ -1,4 +1,37 @@
-# Change Log
+# Changelog
+
+All notable changes to this project will be documented in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## [1.0.0] - 2024-05-04
+
+### Added
+- Initial project setup based on cursor-auto-free
+- 2925.com email support integration
+  - Automated email registration system
+  - Email verification code auto-retrieval
+  - Account management automation
+- Multi-language support (English, Simplified Chinese, Traditional Chinese)
+- Cross-platform compatibility (Windows, macOS, Linux)
+
+### Changed
+- Enhanced email registration process
+- Improved account management system
+- Optimized automation workflows
+
+### Documentation
+- Created comprehensive README in both Chinese and English
+- Added detailed usage documentation
+- Included system requirements and quick start guide
+
+## [0.1.0] - 2024-05-04
+
+### Initial Features
+- Basic project structure setup
+- Core functionality implementation
+- Initial documentation
 
 ## v1.11.02
 
