@@ -1,10 +1,23 @@
-# Cursor Pro Automation Tool
+# Cursor PRO@2925mail Automation Tool
 
 English | [简体中文](README.md)
 
-## 📌 Introduction
+## 📌 Project Overview
 
-This is a powerful Cursor Pro automation tool focused on providing efficient account management and automatic permission updates. Based on [cursor-auto-free](https://github.com/chengazhen/cursor-auto-free), it adds comprehensive support for 2925.com email.
+This project is a specialized automation tool for Cursor PRO, providing efficient account management and automatic permission updates based on 2925.com email. Developed based on [cursor-auto-free](https://github.com/chengazhen/cursor-auto-free) (Original Author: @chengazhen), with comprehensive 2925.com email support added by [@ch777777](https://github.com/ch777777).
+
+## 📦 Version Information
+
+- Current Version: v1.2.0
+- Update Date: 2024-05-04
+- Version History: [CHANGELOG.md](CHANGELOG.md)
+
+### Version Notes
+- v1.2.0 - 2925.com Email Support Version
+  - 2925.com email auto-registration support
+  - Complete account management functionality
+  - Automated permission update system
+  - Multi-language interface support
 
 ## ✨ Core Features
 
