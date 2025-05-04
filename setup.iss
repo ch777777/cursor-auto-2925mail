@@ -1,5 +1,5 @@
 #define MyAppName "Cursor注册工具"
-#define MyAppVersion "1.0.0"
+#define MyAppVersion "2.7.2"
 #define MyAppPublisher "Your Company"
 #define MyAppExeName "Cursor注册工具_最终版.exe"
 

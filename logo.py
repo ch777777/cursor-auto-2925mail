@@ -12,7 +12,7 @@ env_path = os.path.join(current_dir, '.env')
 # Load environment variables, specifying the .env file path
 load_dotenv(env_path)
 # Get the version number, using the default value if not found
-version = os.getenv('VERSION', '1.0.0')
+version = os.getenv('VERSION', '2.7.2')
 
 # Initialize colorama
 init()
