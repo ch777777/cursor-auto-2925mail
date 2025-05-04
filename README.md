@@ -4,7 +4,9 @@
 
 ## 📌 项目简介
 
-本项目是一个专注于 Cursor PRO 的自动化工具，提供基于2925.com邮箱的高效账号管理和权限自动更新功能。基于 [cursor-auto-free](https://github.com/chengazhen/cursor-auto-free) (原作者: @chengazhen) 开发，由 [@ch777777](https://github.com/ch777777) 增加了对2925.com邮箱的全面支持。
+本项目是一个专注于 Cursor PRO 的自动化工具，提供基于2925.com邮箱的高效账号管理和权限自动更新功能。基于 cursor-auto-free (原作者: @chengazhen) 开发，由 @ch777777 增加了对2925.com邮箱的全面支持。
+
+GitHub 仓库地址: [https://github.com/ch777777/cursor-auto-2925mail?tab=readme-ov-file](https://github.com/ch777777/cursor-auto-2925mail?tab=readme-ov-file)
 
 ## 📦 版本信息
 
