@@ -26,22 +26,32 @@
 - 智能验证码识别和处理
 - 批量账号管理系统
 - 自动化账号信息提交
+- 账号有效性自动检测
+- 账号数据自动备份
+- 多线程批量操作支持
 
 ### 🔄 权限管理
 - 自动循环更新使用权限
 - 智能化权限状态监控
 - 多账号轮换机制
 - 失效预警和自动处理
+- 权限状态实时检测
+- 自动故障恢复机制
+- 异常情况智能处理
 
 ### 🌐 系统兼容
 - Windows 系统全面支持
 - macOS 完整适配
 - Linux 系统兼容
+- Docker 容器支持
+- 云服务器部署支持
 
 ### 🌍 多语言支持
 - 简体中文
 - English
 - 繁體中文
+- 日本語 (计划中)
+- 한국어 (计划中)
 
 ## 🚀 快速开始
 
@@ -290,3 +300,12 @@ cursor-auto-2925mail/
 ![GitHub stars](https://img.shields.io/github/stars/ch777777/cursor-auto-2925mail)
 ![GitHub forks](https://img.shields.io/github/forks/ch777777/cursor-auto-2925mail)
 ![GitHub issues](https://img.shields.io/github/issues/ch777777/cursor-auto-2925mail)
+
+### 🔧 高级功能
+- 代理池自动管理
+- API 接口支持
+- WebUI 管理界面
+- 自定义插件系统
+- 数据统计分析
+- 自动化测试
+- 性能监控优化
