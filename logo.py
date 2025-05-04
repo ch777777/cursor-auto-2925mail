@@ -82,20 +82,26 @@ bingoohuang  mALIk-sHAHId  MFaiqKhan  httpmerak
 muhammedfurkan plamkatawe Lucaszmv
 """
 OTHER_INFO_TEXT = f"""{Fore.YELLOW}
-Github: https://github.com/yeongpin/cursor-free-vip{Fore.RED}
+Github: https://github.com/ch777777/cursor-auto-2925mail?tab=readme-ov-file{Fore.RED}
 Press 4 to change language | 按下 4 键切换语言{Style.RESET_ALL}"""
+
+# Add branch author name
+BRANCH_AUTHOR_TEXT = f"""{Fore.GREEN}
+Branch Author: ch777777{Style.RESET_ALL}"""
 
 # center display LOGO and DESCRIPTION
 CURSOR_LOGO = center_multiline_text(LOGO_TEXT, handle_chinese=False)
 CURSOR_DESCRIPTION = center_multiline_text(DESCRIPTION_TEXT, handle_chinese=False)
 CURSOR_CONTRIBUTORS = center_multiline_text(CONTRIBUTORS_TEXT, handle_chinese=False)
 CURSOR_OTHER_INFO = center_multiline_text(OTHER_INFO_TEXT, handle_chinese=True)
+BRANCH_AUTHOR = center_multiline_text(BRANCH_AUTHOR_TEXT, handle_chinese=False)
 
 def print_logo():
     print(CURSOR_LOGO)
     print(CURSOR_DESCRIPTION)
     # print(CURSOR_CONTRIBUTORS)
     print(CURSOR_OTHER_INFO)
+    print(BRANCH_AUTHOR)
 
 if __name__ == "__main__":
     print_logo()
