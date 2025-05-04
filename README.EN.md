@@ -1,9 +1,5 @@
 # Cursor Pro Automation Tool Documentation
 
-## Online Documentation
-
-cursor-auto-free-doc.vercel.app
-
 ## Project Description
 
 This project is an enhanced version based on [cursor-auto-free](https://github.com/chengazhen/cursor-auto-free), mainly adding support for 2925.com email and automation features.
@@ -36,4 +32,13 @@ Compared to the original project, this branch has made the following improvement
 
 ## Disclaimer
 
-This project is developed based on the cursor-auto-free project by the original author chengazhen and is for learning and research purposes only. Any consequences arising from the use of this tool are borne by the user. 
+This project is developed based on the cursor-auto-free project by the original author chengazhen and is for learning and research purposes only. Any consequences arising from the use of this tool are borne by the user.
+
+## ⭐ Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=ch777777/cursor-auto-free-2925mail&type=Date)](https://star-history.com/#ch777777/cursor-auto-free-2925mail&Date)
+
+## 📝 License
+
+This project is licensed under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/).
+Please refer to the [LICENSE](LICENSE.md) file for details. 
