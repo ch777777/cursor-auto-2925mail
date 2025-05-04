@@ -107,41 +107,73 @@ Please enter option number (1-8):
    - Automatic 2925.com email registration
    - Automatic verification and activation
    - Initial settings configuration
+   - Custom email prefix option
+   - Batch registration functionality
+   - Real-time registration progress
+   - Auto-save registration results
 
 2. **Reset Existing Account**
    - Reset account status
    - Clear historical data
    - Restore initial settings
+   - Account configuration reset
+   - Permission status reset
+   - Auto-backup of existing data
+   - Reset logging
 
 3. **Update Account Permissions**
    - Automatic permission updates
    - Batch permission updates
    - Permission status check
+   - Update progress display
+   - Automatic retry on failure
+   - Update logging
+   - Permission validity management
 
 4. **View Account Status**
    - Display all account information
    - Check permission status
    - Export account report
+   - Account usage statistics
+   - Permission expiration alerts
+   - Abnormal status marking
+   - Detailed log viewing
 
 5. **System Settings**
    - Configure proxy settings
    - Adjust auto-update interval
    - Set backup options
+   - Thread count adjustment
+   - Log level configuration
+   - Network parameter settings
+   - System performance optimization
 
 6. **Switch Language**
    - Support Simplified Chinese
    - Support Traditional Chinese
    - Support English
+   - Real-time switching without restart
+   - Custom language packs
+   - Language setting persistence
+   - Instant UI updates
 
 7. **Version Information**
    - Show current version
    - Check for updates
    - View changelog
+   - Version comparison
+   - New feature descriptions
+   - Bug fix records
+   - Update recommendations
 
 8. **Exit Program**
    - Save data safely
    - Clean temporary files
    - Exit application
+   - Save current settings
+   - Close background processes
+   - Disconnect network
+   - Integrity check
 
 ## 📚 Usage Guide
 
