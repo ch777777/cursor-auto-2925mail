@@ -1,0 +1,23 @@
+include LICENSE.md
+include README.md
+include requirements.txt
+include config.ini
+include *.txt
+include *.json
+include *.py
+include *.spec
+include *.bat
+include *.sh
+include *.command
+
+recursive-include locales *
+recursive-include images *
+recursive-include email_tabs *
+recursive-include scripts *
+
+global-exclude *.pyc
+global-exclude __pycache__
+global-exclude *.pyo
+global-exclude .git
+global-exclude .gitignore
+global-exclude .DS_Store 
