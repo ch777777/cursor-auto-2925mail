@@ -61,17 +61,118 @@ python main.py
 
 ## 📚 Usage Guide
 
-### Basic Functions
-- Account registration
-- Verification code handling
-- Permission updates
-- Status monitoring
+### 🔰 Basic Functions
+#### 1. Account Registration
+- Automatic Registration
+  ```bash
+  python main.py --register
+  ```
+- Batch Registration
+  ```bash
+  python main.py --register-batch --count 5
+  ```
+- Custom Email Prefix
+  ```bash
+  python main.py --register --prefix "mycursor"
+  ```
 
-### Advanced Features
-- Batch operations
-- Automated management
-- Exception handling
-- Data backup
+#### 2. Verification Code Handling
+- Automatic Code Retrieval
+- Smart Recognition & Filling
+- Failure Retry Mechanism
+- Verification Code Logging
+
+#### 3. Permission Updates
+- Single Account Update
+  ```bash
+  python main.py --update-permission --email "example@2925.com"
+  ```
+- Batch Update
+  ```bash
+  python main.py --update-all
+  ```
+- Scheduled Auto Update
+  ```bash
+  python main.py --auto-update --interval 24h
+  ```
+
+#### 4. Status Monitoring
+- Check Account Status
+  ```bash
+  python main.py --status
+  ```
+- Export Status Report
+  ```bash
+  python main.py --export-report
+  ```
+
+### 🚀 Advanced Features
+#### 1. Batch Operations
+- Account Import/Export
+  ```bash
+  # Export account list
+  python main.py --export accounts.csv
+  # Import accounts
+  python main.py --import accounts.csv
+  ```
+- Batch Permission Check
+- Batch Status Update
+
+#### 2. Automated Management
+- Configure Scheduled Tasks
+  ```bash
+  # Set auto-update every 6 hours
+  python main.py --schedule "0 */6 * * *"
+  ```
+- Expiration Alert Settings
+  ```bash
+  # Set expiration reminder
+  python main.py --alert-before 2d
+  ```
+- Automatic Data Backup
+
+#### 3. Exception Handling
+- Network Error Retry
+- Verification Code Recognition Failure
+- Account Exception Handling
+- Automatic Fault Recovery
+
+#### 4. Data Management
+- Data Backup & Restore
+  ```bash
+  # Backup data
+  python main.py --backup
+  # Restore data
+  python main.py --restore backup.zip
+  ```
+- History Query
+- Usage Analytics
+
+### 💡 Usage Tips
+1. **Best Practices**
+   - Recommended batch size: no more than 10 accounts
+   - Suggested schedule interval: 4-6 hours
+   - Regular data backup
+
+2. **Common Issues**
+   - Registration Failed: Check network and email configuration
+   - Code Recognition Error: Try different recognition mode
+   - Permission Update Failed: Check account status and system time
+
+3. **Performance Optimization**
+   - Use proxy pool for requests
+   - Enable multi-threading
+   - Configure local cache
+
+### ⚙️ Configuration
+```ini
+# .env configuration example
+EMAIL_PREFIX=mycursor     # Email prefix
+AUTO_RETRY=3             # Auto retry count
+PROXY_ENABLED=true       # Enable proxy
+THREAD_COUNT=5           # Thread count
+LOG_LEVEL=INFO          # Log level
+```
 
 ## 🛠️ Development
 
