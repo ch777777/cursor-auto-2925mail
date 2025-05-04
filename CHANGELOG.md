@@ -5,7 +5,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [1.11.02] - 2024-05-04
+## [1.11.02] - 2024-05-04 (Original Author: @chengazhen)
 
 1. Fill: Missing Translations（ar, zh-cn, zh-tw, vi, nl, de, fr, pt, ru, tr, bg, es, ja, it） | 填補缺失的翻譯
 2. Add: Japanese and Italian language support
@@ -14,6 +14,28 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 5. Add: TempMailPlus Support, support temp email verification | 新增 TempMailPlus 配置，支持临时邮箱验证功能
 6. Fix: Chrome user data directory permission problem on mac | 修復 Chrome 用戶數據目錄權限問題 on mac
 7. Fix: Some Issues | 修復一些問題
+
+## [1.2.0] - 2024-05-04 (Author: @ch777777)
+
+### ✨ Core Features | 核心特性
+
+#### 🔑 Account Management | 账号管理
+- Added 2925.com email auto-registration support | 支持2925.com邮箱自动注册
+- Intelligent verification code recognition and processing | 智能验证码识别和处理
+- Batch account management system | 批量账号管理系统
+- Automated account information submission | 自动化账号信息提交
+
+#### 🔄 Permission Management | 权限管理
+- Automatic permission update cycle | 自动循环更新使用权限
+- Intelligent permission status monitoring | 智能化权限状态监控
+- Multi-account rotation mechanism | 多账号轮换机制
+- Expiration warning and automatic processing | 失效预警和自动处理
+
+### Added | 新增
+- 2925.com email integration and automation | 2925.com邮箱集成和自动化
+- Complete account management functionality | 完整的账号管理功能
+- Automated permission update system | 自动化权限更新系统
+- Multi-language interface support | 多语言界面支持
 
 ## [1.11.01] - 2024-05-03
 
