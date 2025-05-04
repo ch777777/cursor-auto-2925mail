@@ -26,22 +26,32 @@ This project is a specialized automation tool for Cursor PRO, providing efficien
 - Smart verification code recognition
 - Batch account management system
 - Automated account information submission
+- Automatic account validity detection
+- Account data auto-backup
+- Multi-threaded batch operation support
 
 ### 🔄 Permission Management
 - Automatic permission renewal
 - Smart permission status monitoring
 - Multi-account rotation mechanism
 - Expiration alerts and auto-handling
+- Real-time permission status detection
+- Automatic fault recovery mechanism
+- Intelligent exception handling
 
 ### 🌐 System Compatibility
 - Full Windows support
 - Complete macOS adaptation
 - Linux compatibility
+- Docker container support
+- Cloud server deployment support
 
 ### 🌍 Multi-language Support
 - English
 - Simplified Chinese
 - Traditional Chinese
+- Japanese (Planned)
+- Korean (Planned)
 
 ## 🚀 Quick Start
 
@@ -289,4 +299,13 @@ Welcome to submit Issues and Pull Requests to help improve the project. Before s
 
 ![GitHub stars](https://img.shields.io/github/stars/ch777777/cursor-auto-2925mail)
 ![GitHub forks](https://img.shields.io/github/forks/ch777777/cursor-auto-2925mail)
-![GitHub issues](https://img.shields.io/github/issues/ch777777/cursor-auto-2925mail) 
+![GitHub issues](https://img.shields.io/github/issues/ch777777/cursor-auto-2925mail)
+
+### 🔧 Advanced Features
+- Proxy pool auto-management
+- API interface support
+- WebUI management interface
+- Custom plugin system
+- Data statistics and analysis
+- Automated testing
+- Performance monitoring and optimization 
