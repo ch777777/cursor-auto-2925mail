@@ -72,6 +72,67 @@ cp .env.example .env
 python main.py
 ```
 
+## 📋 Main Menu
+
+After running the program, you will see the following main menu options:
+
+```
+🎯 Cursor PRO@2925mail Automation Tool Main Menu
+
+1. ✨ Create New Account (2925.com email)
+2. 🔄 Reset Existing Account
+3. 🔑 Update Account Permissions
+4. 📊 View Account Status
+5. ⚙️ System Settings
+6. 🌍 Switch Language
+7. ℹ️ View Version Info
+8. ❌ Exit Program
+
+Please enter option number (1-8): 
+```
+
+### Menu Options Description
+
+1. **Create New Account**
+   - Automatic 2925.com email registration
+   - Automatic verification and activation
+   - Initial settings configuration
+
+2. **Reset Existing Account**
+   - Reset account status
+   - Clear historical data
+   - Restore initial settings
+
+3. **Update Account Permissions**
+   - Automatic permission updates
+   - Batch permission updates
+   - Permission status check
+
+4. **View Account Status**
+   - Display all account information
+   - Check permission status
+   - Export account report
+
+5. **System Settings**
+   - Configure proxy settings
+   - Adjust auto-update interval
+   - Set backup options
+
+6. **Switch Language**
+   - Support Simplified Chinese
+   - Support Traditional Chinese
+   - Support English
+
+7. **Version Information**
+   - Show current version
+   - Check for updates
+   - View changelog
+
+8. **Exit Program**
+   - Save data safely
+   - Clean temporary files
+   - Exit application
+
 ## 📚 Usage Guide
 
 ### 🔰 Basic Functions
